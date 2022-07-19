@@ -18,6 +18,11 @@ overflow: hidden;
     right: 0;
     animation: pipe-animation 2s infinite linear;
 }
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
 @keyframes pipe-animation{
     form{
         right: -80px;
