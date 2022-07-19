@@ -16,4 +16,12 @@ overflow: hidden;
     bottom: 0;
     width: 80px;
     right: 0;
+    animation: pipe-animation 2s infinite linear;
+}
+@keyframes pipe-animation{
+    form{
+        right: -80px;
+    }to{
+        right: 100%;
+    }
 }
